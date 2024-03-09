@@ -1,0 +1,41 @@
+:root{
+    --clr-dark:black;
+    --clr-light:rgb(255, 255, 255);
+    --clr-accent:rgb(246, 13, 13);
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+line-height: 1.6;
+word-spacing: 1.6;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container{
+    width: 80%;
+    height: 700px;
+    margin: 0px auto;
+    border: 10px solid var(--clr-dark);
+}
+
+.item1{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    padding: 1em;
+    font-weight: 700px;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-accent);
+    border-radius: 10px;
+}
